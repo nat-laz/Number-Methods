@@ -8,7 +8,8 @@
 let ten = 213;
 console.log(ten.toString()); // Output: '213'
 console.log(ten.toString(2)); // Output: '11010101'
-console.log(ten.toString(10)); // Output: '213'
+console.log(ten.toString(16)); // Output: '213'
+console.log(2 | 1); // in binary 00000010=2 ; 00000001 =1  0= 00000000
 
 // .toFixed() method:
 //  - rounds up a number to the nearest highest or lowest fixed-point notation.
